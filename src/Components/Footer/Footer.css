@@ -1,0 +1,21 @@
+.footer{
+    color: #fff;
+}
+
+.logo1{
+    height: 40px;
+}
+
+.icons > *{
+    color: #fff;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socials > *{
+    padding: 20px 20px;
+}
