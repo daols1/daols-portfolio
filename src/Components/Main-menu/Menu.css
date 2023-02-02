@@ -1,0 +1,22 @@
+.main-menu-container{
+    color: #fff;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 8fr 1fr;
+    padding-top: 40px;
+}
+
+.logo{
+    height: 70px;
+}
+
+.unlisted{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.unlisted > *{
+    padding: 0px 20px;
+}

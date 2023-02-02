@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Menu from '../../Components/Main-menu/Menu';
 
 function Home() {
   return (
     <div>
-      Hello just testing some shit out
+      <Menu />
     </div>
   )
 }
