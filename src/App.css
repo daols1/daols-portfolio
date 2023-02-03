@@ -41,3 +41,7 @@
   padding-right: 80px;
   padding-left: 80px;
 }
+
+.gradient-bg-btn{
+  background-image: linear-gradient(to top right, #ED8A59, #EB715C);
+}

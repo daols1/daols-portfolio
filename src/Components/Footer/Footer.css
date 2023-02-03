@@ -19,3 +19,9 @@
 .socials > *{
     padding: 20px 20px;
 }
+
+@media screen and (max-width:600px) {
+    .socials > *{
+        padding: 10px 10px;
+    }
+}

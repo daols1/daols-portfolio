@@ -4,6 +4,12 @@ import Logo from '../../asset/Logo.png'
 import { Link } from 'react-router-dom';
 
 function Menu() {
+
+    // State logic
+
+
+
+
   return (
     <div className='main-menu-container container'>
         <div>
@@ -18,7 +24,7 @@ function Menu() {
             </ul>
         </div>
         <div className='contact-btn-aside btn'>
-            <Link to='' className='btn contact-btn'>Contact</Link>
+            <Link to='' className='btn contact-btn gradient-bg-btn '>Contact</Link>
         </div>
     </div>
   )

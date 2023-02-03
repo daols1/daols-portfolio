@@ -10,6 +10,13 @@
     max-height: 40px;
 }
 
+.contact-btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
 .unlisted{
     display: flex;
     align-items: center;
