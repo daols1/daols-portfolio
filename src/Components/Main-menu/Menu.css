@@ -7,7 +7,7 @@
 }
 
 .logo{
-    height: 70px;
+    max-height: 40px;
 }
 
 .unlisted{

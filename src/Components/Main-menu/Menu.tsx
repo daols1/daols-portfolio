@@ -18,7 +18,7 @@ function Menu() {
             </ul>
         </div>
         <div className='contact-btn-aside btn'>
-            <p>contact</p>
+            <Link to='' className='btn contact-btn'>Contact</Link>
         </div>
     </div>
   )
