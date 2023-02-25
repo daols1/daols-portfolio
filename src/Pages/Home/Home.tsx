@@ -4,9 +4,8 @@ import Menu from '../../Components/Main-menu/Menu';
 
 function Home() {
   return (
-    <div>
-      <Menu />
-      <Footer />
+    <div className='container'>
+      <h1>THis is the home page</h1>
     </div>
   )
 }

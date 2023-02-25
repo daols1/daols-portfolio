@@ -1,11 +1,11 @@
 import React from 'react'
 
-function About() {
+function Services() {
   return (
     <div className='container'>
-      <h1>This is the about page</h1>
+      <h1>This is the Services page</h1>
     </div>
   )
 }
 
-export default About
+export default Services
