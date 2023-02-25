@@ -37,11 +37,27 @@
   }
 }
 
-.container{
+@keyframes mobile-nav {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.container {
   padding-right: 80px;
   padding-left: 80px;
 }
 
-.gradient-bg-btn{
-  background-image: linear-gradient(to top right, #ED8A59, #EB715C);
+.gradient-bg-btn {
+  background-image: linear-gradient(to top right, #ed8a59, #eb715c);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
