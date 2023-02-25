@@ -55,6 +55,7 @@
     transition: all ease-in-out;
     animation: mobile-nav ease-in-out;
     animation-duration: 0.15s;
+    z-index: 2;
   }
   .mobile-menu {
     justify-self: flex-start;

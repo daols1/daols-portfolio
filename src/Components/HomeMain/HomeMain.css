@@ -1,0 +1,169 @@
+.home-main-contain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 40px 0px;
+  place-items: center;
+  color: #fff;
+  /* overflow: hidden; */
+}
+
+.h-m-txt {
+}
+
+.h-m-txt h1 {
+  font-size: 70px;
+  margin: 0px;
+}
+
+.h-m-txt p {
+  font-size: 20px;
+}
+
+.h-m-img {
+  position: relative;
+  transition: all ease-in-out 7s;
+  animation-name: position-float;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: alternate;
+}
+
+.h-m-img:hover {
+  animation: none;
+}
+
+.h-m-img::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  border-radius: 50%;
+  display: block;
+  background: rgba(198, 64, 64, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(198, 64, 64, 0.4);
+  z-index: 1;
+}
+
+.h-m-img::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 310px;
+  left: 290px;
+  border-radius: 50%;
+  display: block;
+  background: rgba(198, 64, 64, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(198, 64, 64, 0.4);
+  z-index: 1;
+}
+
+.f1 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 20px;
+  left: 290px;
+  border-radius: 50%;
+  transition: all ease-in-out 7s;
+  animation-name: floaters;
+  animation-timing-function: ease-in;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: alternate;
+  display: block;
+  background: rgba(198, 64, 64, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(198, 64, 64, 0.4);
+  z-index: 1;
+}
+
+.f2 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 20px;
+  left: 290px;
+  border-radius: 50%;
+  transition: all ease-in-out 7s;
+  animation-name: floaters2;
+  animation-timing-function: ease-in;
+  animation-duration: 15s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  display: block;
+  background: rgba(73, 64, 198, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(111, 64, 198, 0.4);
+  z-index: 1;
+}
+
+.floaters:hover {
+  animation: none;
+}
+
+.h-img {
+  border-radius: 50%;
+  max-width: 100%;
+  padding: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .h-m-img::before {
+    top: 210px;
+    left: 290px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .h-m-txt h1 {
+    font-size: 50px;
+  }
+  .h-m-img::before {
+    left: 180px;
+    top: 170px;
+    width: 110px;
+    height: 110px;
+  }
+  .h-m-img::after {
+    width: 90px;
+    height: 90px;
+  }
+  .f1 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home-main-contain {
+    grid-template-columns: 1fr;
+  }
+  .h-m-txt h1 {
+    font-size: 40px;
+  }
+  .h-m-txt p {
+    font-size: 16px;
+  }
+  .h-m-img::before {
+    left: 230px;
+    top: 210px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .h-m-img::before {
+    left: 200px;
+    top: 200px;
+  }
+}
