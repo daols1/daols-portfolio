@@ -15,7 +15,7 @@ function HomeMain() {
             <br/>
 
             As a Front-end Developer, I specialize in the client-facing side of web development, ensuring that websites are both visually appealing and user-friendly. I use a combination of HTML, CSS, and JavaScript to create dynamic, interactive websites that engage users and deliver results.</p>
-            <Link to='' >Lets Talk 😁</Link>
+            <Link to='' className='h-m-btn'>Lets Talk 😁</Link>
         </div>
         <div className='h-m-img'>
             <img src={disppic} alt="" className='h-img' />

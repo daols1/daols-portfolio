@@ -110,6 +110,17 @@ a {
   }
 }
 
+@keyframes slideup {
+  from {
+    margin-top: 100%;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
+
 .container {
   padding-right: 80px;
   padding-left: 80px;

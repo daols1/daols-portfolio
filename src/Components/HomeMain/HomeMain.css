@@ -105,9 +105,30 @@
   z-index: 1;
 }
 
-.floaters:hover {
-  animation: none;
+.h-m-btn {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 255, 0.267),
+    rgba(255, 0, 0, 0.267)
+  );
+  backdrop-filter: blur(4.3px);
+  padding: 10px 20px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.219);
+  transition: all ease-in-out 0.3s;
 }
+
+.h-m-btn:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+  outline: 4px rgba(204, 143, 11, 0.651) solid;
+  box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.336);
+  transform: scale(6);
+}
+
+/* .floaters:hover {
+  animation: none;
+} */
 
 .h-img {
   border-radius: 50%;
