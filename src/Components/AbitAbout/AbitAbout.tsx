@@ -1,4 +1,3 @@
-import React from 'react'
 import './AbitAbout.css'
 import secondPic from '../../asset/pictwo.jpg'
 import {Link} from 'react-router-dom'
