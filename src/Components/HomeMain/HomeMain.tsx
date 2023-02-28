@@ -18,7 +18,7 @@ function HomeMain() {
             <Link to='' className='h-m-btn'>Lets Talk 😁</Link>
         </div>
         <div className='h-m-img'>
-            <img src={disppic} alt="" className='h-img' />
+            <div className='dispic-container'><img src={disppic} alt="" className='h-img' /></div>
             <div className='floaters f1'></div>
             <div className='floaters f2'></div>
         </div>
