@@ -10,7 +10,7 @@ function AbitAbout() {
         </div>
         <div className='txt-side'>
           <h1> Bit About Me</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis sapiente porro ut voluptatem quibusdam? Iusto, vero maiores ea nobis necessitatibus, placeat eligendi, ex incidunt culpa voluptas odit? Natus, sit culpa?</p>
+          <p>Lorem ipsum dolor it, amet consectetur adipisicing elit. Officiis sapiente porro ut voluptatem quibusdam? Iusto, vero maiores ea nobis necessitatibus, placeat eligendi, ex incidunt culpa voluptas odit? Natus, sit culpa?</p>
           <Link to='' className='h-m-btn'>Download CV 👴</Link>
         </div>
     </div>
