@@ -1,5 +1,5 @@
 import './AbitAbout.css'
-import secondPic from '../../asset/pictwo.jpg'
+import secondPic from '../../asset/pictwo2.jpg'
 import {Link} from 'react-router-dom'
 
 function AbitAbout() {
