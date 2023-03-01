@@ -13,12 +13,50 @@
   align-self: center;
   margin: 0px 5em;
   border-radius: 15em 3px 20em 3px;
+  z-index: 0;
 }
 
-.second-image::focus {
-  animation: slideup;
-  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  animation-duration: 3s;
+.img-side {
+  position: relative;
+}
+
+.circles {
+  position: absolute;
+  background: linear-gradient(
+    to bottom right,
+    rgba(74, 5, 202, 0.5),
+    rgba(221, 23, 23, 0.39)
+  );
+  box-shadow: 0 4px 30px rgba(59, 59, 59, 0.1);
+  backdrop-filter: blur(2.3px);
+  border: 1px solid rgba(198, 64, 64, 0.205);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.c1 {
+  left: 20;
+}
+
+.c2 {
+  top: 55%;
+  left: 55%;
+}
+
+@media screen and (max-width: 1024px) {
+  .circles {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .circles {
+    width: 130px;
+    height: 130px;
+  }
 }
 
 @media screen and (max-width: 650px) {
