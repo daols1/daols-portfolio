@@ -14,25 +14,30 @@ export const data = [
             id:2, 
             pic: gympic,
             title:'A place for people to chill online and to just pass time',
+            link:'https://musical-mooncake-aa1268.netlify.app/',
         },
         {
             id:3, 
             pic: gympic,
             title:'A website made to solve the porblem of Yahoo boys.',
+            link:'https://musical-mooncake-aa1268.netlify.app/',
         },
         {
             id:4, 
             pic: gympic,
             title:'A website made to solve the porblem of Yahoo boys.',
+            link:'https://musical-mooncake-aa1268.netlify.app/',
         },
         {
             id:5, 
             pic: gympic,
             title:'A website made to solve the porblem of Yahoo boys.',
+            link:'https://musical-mooncake-aa1268.netlify.app/',
         },
         {
             id:6, 
             pic: gympic,
             title:'A website made to solve the porblem of Yahoo boys.',
+            link:'https://musical-mooncake-aa1268.netlify.app/',
         },
     ]
