@@ -1,0 +1,82 @@
+.portfolio {
+  color: #fff;
+  text-align: center;
+}
+
+.portfolio h1 {
+  margin-bottom: 20px;
+}
+
+.portfolio > div {
+  margin-bottom: 70px;
+}
+
+.portfolio-image {
+  width: 50%;
+}
+
+.grid-container {
+  gap: 20px;
+}
+
+.portfolio-g-item {
+  border: 1px rgba(42, 101, 228, 0.479) solid;
+  text-align: left;
+  background-image: linear-gradient(to bottom right, #3d60fd83, #fd3d3d83);
+  backdrop-filter: blur(5px);
+  box-shadow: 1px 2px 20px #041353;
+  margin: 0px;
+  border-radius: 20px;
+}
+
+.g-item-txt {
+  /* background-image: linear-gradient(to bottom right, #adadad, #383838); */
+  border-radius: 0px 0px 20px 20px;
+  margin: 0px;
+}
+
+.portfolio-g-item img {
+  width: 100%;
+}
+
+.portfolio-g-item h3 {
+  font-size: clamp(16px, 20px, 30px);
+  padding: 10px 20px;
+  margin: 0px;
+}
+
+.portfolio-g-item button {
+  /* padding: 5px 20px;
+  font-size: 16px;
+  margin: 0px 20px 10px;
+  border-radius: 10px; */
+  color: #fff;
+  border: none;
+  background: rgb(2, 1, 70);
+  padding: 10px 20px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+  width: clamp(130px, 18vw, 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-g-item button:hover {
+  scale: 1.03;
+  outline: 2px #efefef solid;
+  box-shadow: 1px 1px 10px #000;
+}
+
+.portfolio-g-item button:active {
+  scale: 0.8;
+  outline: 2px #efefef solid;
+  box-shadow: 1px 1px 10px #000;
+}
+
+.portfolio-image {
+  padding: 0px;
+  margin: 0px;
+  border-radius: 20px 20px 0px 0px;
+}
