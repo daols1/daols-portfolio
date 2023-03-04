@@ -16,12 +16,7 @@ function PortfolioSelf() {
     // }
 
   return (
-    <div className='grid-container' style={{
-        display: 'grid',
-        gridTemplateColumns: `repeat(auto-fill, minmax(300px, 1fr))`,
-        // backgroundColor: 'red',
-        // padding:'20px'
-    }}>
+    <div className='grid-container'>
         
             {data.map(({id, title, pic, link}) => {
                 return(

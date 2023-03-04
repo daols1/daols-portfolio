@@ -16,6 +16,8 @@
 }
 
 .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -79,4 +81,10 @@
   padding: 0px;
   margin: 0px;
   border-radius: 20px 20px 0px 0px;
+}
+
+@media screen and (max-width: 700px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
