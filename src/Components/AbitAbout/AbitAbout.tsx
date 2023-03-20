@@ -59,7 +59,7 @@ function AbitAbout() {
         </div>
         <div className='txt-side'>          
           <h1> Bit About Me</h1>
-          <p>Lorem ipsum dolor it, amet consectetur adipisicing elit. Officiis sapiente porro ut voluptatem quibusdam? Iusto, vero maiores ea nobis necessitatibus, placeat eligendi, ex incidunt culpa voluptas odit? Natus, sit culpa?</p>
+          <p> I a David Ladipo a Web Developer with passiom for creating solutions to real life porblems with my frontend skills. Was born and bread in lagos, Nigeria. During my software development journey i have solved the porblem of may of my clients with ease and efficiency. They gave me the nickname Ladi the mara Dev. My watch word is perfection i love to have contribution to what matters and what truely makes life easier for people. Peace ✌</p>
           <Link to='' className='h-m-btn'>Download CV 👴</Link>
         </div>
     </div>

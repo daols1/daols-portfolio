@@ -61,7 +61,7 @@ function MainServices() {
         >
           <BiCodeAlt size={40} />
           <h2>Web Development</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempore similique ea mollitia, quidem eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendisquidem eius!</p>
+          <p>I offer the services of a web developer, I use my web development skills to solve problems for my porspects and make life easier for people. React, strapi and its major tooling i what i use to make world class web solutions.</p>
         </motion.div>
         <motion.div 
         className='services-gird-item'
@@ -87,7 +87,7 @@ function MainServices() {
         >
           <GiPaintBrush size={40} />
           <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempore similique ea mollitia, quidem eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendisquidem eius!</p>
+          <p>Web design refers to the process of creating the visual and functional elements of a website. It involves the use of various design principles and tools to create a website that is aesthetically pleasing, easy to navigate, and functional.</p>
         </motion.div>
         <motion.div 
         className='services-gird-item'
@@ -113,7 +113,7 @@ function MainServices() {
         >
           <GiGuitar size={40} />
           <h2>Gigging 🤘</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempore similique ea mollitia, quidem eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendisquidem eius!</p>
+          <p>I am a porfessional bass player. i love to make and play music generally. I have ABRSM theory Grade 4 in music and i am good at what i do. 🎸🎸</p>
         </motion.div>
         <motion.div 
         className='services-gird-item'
@@ -139,7 +139,7 @@ function MainServices() {
         >
           <AiFillCamera size={40} />
           <h2>Photography</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempore similique ea mollitia, quidem eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendisquidem eius!</p>
+          <p>One of my hobbies is taking photos i love snapping pictures and i do it professionally, i you have an event or you need a session please dont forget to hit me up.</p>
         </motion.div>
         <motion.div 
         className='services-gird-item'
@@ -165,7 +165,8 @@ function MainServices() {
         >
           <BsEmojiSunglasses size={40} />
           <h2>Leadership</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempore similique ea mollitia, quidem eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendisquidem eius!</p>
+          <p>Beign a leader is one of my core values most of my friends know me to be a leader, be it at work, school, at normal day to day activities, i am known to be a good leader among my peers
+          </p>
         </motion.div>
         <motion.div 
         className='services-gird-item'
@@ -191,7 +192,7 @@ function MainServices() {
         >
           <BsClipboardData size={40} />
           <h2>Data Science</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempore similique ea mollitia, quidem eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendisquidem eius!</p>
+          <p>I am also a data scientist in the making. In my bid to make life easier or people i descovered that i need to get the skills of a data scientist, this skill has really opened my eyes and thaught me a lot about tech</p>
         </motion.div>
       </div>
     </div>
