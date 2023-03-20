@@ -31,9 +31,9 @@ function Menu() {
             <div className='menu-itself'>
                 <ul className='unlisted'>
                     <Link to= '/' onClick={iconHandler}>Home</Link>
-                    <Link to= '/about' onClick={iconHandler}>About</Link>
-                    <Link to= '/services' onClick={iconHandler}>Services</Link>
-                    <Link to= '/portfolio' onClick={iconHandler}>Portfolio</Link>
+                    <Link to= '/' onClick={iconHandler}>About</Link>
+                    <Link to= '/' onClick={iconHandler}>Services</Link>
+                    <Link to= '/' onClick={iconHandler}>Portfolio</Link>
                 </ul>
             </div>
             <div className='contact-btn-aside btn'>
@@ -50,9 +50,9 @@ function Menu() {
                         <div className='mobile-menu'>
                             <ul className='unlisted'>
                                 <Link to= '/' onClick={iconHandler}>Home</Link>
-                                <Link to= '/about' onClick={iconHandler}>About</Link>
-                                <Link to= '/services' onClick={iconHandler}>Services</Link>
-                                <Link to= '/portfolio' onClick={iconHandler}>Portfolio</Link>
+                                <Link to= '/' onClick={iconHandler}>About</Link>
+                                <Link to= '/' onClick={iconHandler}>Services</Link>
+                                <Link to= '/' onClick={iconHandler}>Portfolio</Link>
                             </ul>
                             <Link to='' className='btn contact-btn gradient-bg-btn '>Contact</Link>
                         </div>
