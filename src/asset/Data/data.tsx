@@ -12,7 +12,7 @@ export const data = [
             id:1, 
             pic: gympic,
             title:'A website made for BPJ gym at Ikeja.',
-            link:'https://musical-mooncake-aa1268.netlify.app/',
+            link:'https://papajonesgym.netlify.app',
         },
         {
             id:2, 
@@ -30,18 +30,18 @@ export const data = [
             id:4, 
             pic: btc,
             title:'A nft pictures market place.',
-            link:'https://boisterous-tapioca-37d1c9.netlify.app/',
+            link:'https://bitsons.netlify.app',
         },
         {
             id:5, 
             pic: hop,
             title:'A landing page i made for an online Health consultation firm',
-            link:'https://stalwart-starship-c4c41f.netlify.app/',
+            link:'https://healthlanding.netlify.app',
         },
         {
             id:6, 
             pic: calc,
-            title:'A simple JavaScript calculator.',
-            link:'https://celebrated-pixie-1d008f.netlify.app/',
+            title:'A simple JavaScript calculator from front-end mentor.',
+            link:'https://davjscalc.netlify.app',
         },
     ]
