@@ -2,6 +2,7 @@ import React from "react";
 import "./HomeMain.css";
 import { Link } from "react-router-dom";
 import disppic from "../../asset/disppic.jpg";
+import disppic2 from "../../asset/disppic2.jpg";
 
 function HomeMain() {
   return (
@@ -26,7 +27,7 @@ function HomeMain() {
       </div>
       <div className="h-m-img">
         <div className="dispic-container">
-          <img src={disppic} alt="" className="h-img" />
+          <img src={disppic2} alt="" className="h-img" />
         </div>
         <div className="floaters f1"></div>
         <div className="floaters f2"></div>
